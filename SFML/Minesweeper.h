@@ -33,8 +33,7 @@ public:
     int numAdjacentMines(int row, int col) const;
 	void mark(int row, int col);
 	bool isTileFlag(int row, int col) const;
-    
-	// Vi slår av autogenerert kopikonstruktør og tilordningsoperator for å unngå feil
+    	
     Minesweeper(const Minesweeper &) = delete;
     Minesweeper &operator=(const Minesweeper &) = delete;
 };
