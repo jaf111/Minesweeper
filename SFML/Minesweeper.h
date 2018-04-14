@@ -5,7 +5,6 @@ using namespace std;
 
 class Minesweeper {
 private:
-    // Legg til de medlemsvariablene og hjelpefunksjonene du trenger
 	struct Tile {
 		bool open;
 		bool mine;
